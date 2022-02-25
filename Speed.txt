@@ -1,0 +1,4 @@
+local speed = 820
+
+game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = speed
+game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = (speed * 1.5)
